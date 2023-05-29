@@ -131,7 +131,6 @@ impl Player {
     }
 
     fn render(&mut self, ctx: &mut BTerm) {
-        //ctx.set(0, self.y, YELLOW, BLACK, to_cp437('@'));
         ctx.set_active_console(1);
         ctx.cls();
         ctx.set_fancy(
